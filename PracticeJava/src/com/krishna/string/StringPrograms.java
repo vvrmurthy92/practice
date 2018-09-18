@@ -32,7 +32,7 @@ public class StringPrograms {
 			System.out.println("Given Stings "+s1+" and "+s2+" are not Anagram.");
 		}
 		
-	}
+	}  
 	//Program to print all permutations of a String
 	private static void permutationsofString() {
 		String input="ABCD";
