@@ -1,7 +1,11 @@
 package com.kalyan;
 
+import java.awt.Container;
 import java.io.File;
-import java.util.Scanner;
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Exceptionspractice {
 
@@ -10,9 +14,16 @@ public class Exceptionspractice {
 		
 		arrayIndexOBE();
 		fileNFE();
-		userDefinedException();
+//		userDefinedException();
 		scannerTest();
+		outOfMemory();
 		
+	}
+
+	private static void outOfMemory() {
+		
+		Integer[] array = new Integer[10000 * 10000]; 
+		System.out.println(Arrays.asList(array));
 	}
 
 	private static void scannerTest() {
